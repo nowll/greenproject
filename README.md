@@ -1,9 +1,6 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-Show Image
-Show Image
-Show Image
-Show Image
+
 <!-- PROJECT LOGO -->
 <div align="center">
   <h3 align="center">Environmental Volunteer Forum</h3>
@@ -70,31 +67,54 @@ Composer
 MySQL
 Node.js and npm
 
-shCopynpm install npm@latest -g
-Installation
+ ```sh
+   npm install npm@latest -g
+ ```
 
 Get a free API Key at WAQI
+
 Clone the repo
-shCopygit clone https://github.com/your_username/repo_name.git
+ ```sh
+   git clone https://github.com/your_username/repo_name.git
+ ```
+
 
 Install Composer dependencies
-shCopycomposer install
+ ```sh
+   composer install
+ ```
+shCopy
 
 Install NPM packages
-shCopynpm install
+ ```sh
+   npm install
+ ```
+shCopy
 
 Create a copy of .env.example and rename to .env
-shCopycp .env.example .env
+ ```sh
+   cp .env.example .env
+ ```
+shCopy
 
 Generate application key
-shCopyphp artisan key:generate
+ ```sh
+   php artisan key:generate
+ ```
+shCopy
 
 Configure your database in .env
 Enter your WAQI API key in .env
-CopyWAQI_API_KEY=your_api_key_here
+ ```sh
+   WAQI_API_KEY=your_api_key_here
+ ```
+Copy
 
 Run migrations
-shCopyphp artisan migrate
+ ```sh
+   php artisan migrate
+ ```
+shCopy
 
 
 <!-- USAGE -->
@@ -142,4 +162,6 @@ Laravel Documentation
 Choose an Open Source License
 Font Awesome
 
+
+Our project links: http://202.10.44.72/
 <!-- MARKDOWN LINKS & IMAGES -->
